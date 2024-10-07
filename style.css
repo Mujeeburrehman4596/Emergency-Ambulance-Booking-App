@@ -1,0 +1,57 @@
+
+        body {
+            background: linear-gradient(135deg, #ffffff, #f8f9fa);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .booking-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 700px;
+            width: 100%;
+        }
+        .booking-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .booking-header h2 {
+            color: #2c3e50;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .btn-book {
+            background-color: #e74c3c;
+            border: none;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+        .btn-book:hover {
+            background-color: #c0392b;
+        }
+        .form-control, .form-select {
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+        .form-label {
+            color: #34495e;
+            font-weight: 600;
+        }
+        .confirmation-message {
+            background-color: #ecf0f1;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            display: none; /* Initially hidden */
+        }
+        .confirmation-message h4 {
+            color: #27ae60;
+        }
+        .confirmation-message p {
+            color: #7f8c8d;
+        }
+    
